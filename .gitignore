@@ -1,0 +1,10 @@
+
+*.pdb
+*.json
+*.exe
+*.dll
+meslissaProject1/.vs/meslissaProject1/v16/.suo
+meslissaProject1/.vs/*
+meslissaProject1/melissaProject1/bin/*
+meslissaProject1/melissaProject1/obj/*
+*.cache
