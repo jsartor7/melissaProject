@@ -8,3 +8,11 @@ meslissaProject1/.vs/*
 meslissaProject1/melissaProject1/bin/*
 meslissaProject1/melissaProject1/obj/*
 *.cache
+*.targets
+*.editorconfig
+*.props
+meslissaProject1/meslissaProject1/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+meslissaProject1/meslissaProject1/obj/Debug/net5.0/meslissaProject1.AssemblyInfo.cs
+meslissaProject1/meslissaProject1/obj/Debug/net5.0/meslissaProject1.csproj.FileListAbsolute.txt
+meslissaProject1/meslissaProject1/obj/Release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+meslissaProject1/meslissaProject1/obj/Release/net5.0/meslissaProject1.csproj.FileListAbsolute.txt
