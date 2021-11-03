@@ -19,3 +19,6 @@ meslissaProject1/meslissaProject1/obj/Release/net5.0/meslissaProject1.csproj.Fil
 melissaProject2/melissaProject2/obj/Release/net5.0/melissaProject2.csproj.FileListAbsolute.txt
 melissaProject2/.vs/melissaProject2/v16/.suo
 *.v2
+meslissaProject1/meslissaProject1/obj/Debug/net5.0/apphost.exe
+meslissaProject1/meslissaProject1/obj/Release/net5.0/apphost.exe
+melissaProject2/melissaProject2/obj/Release/net5.0/apphost.exe
