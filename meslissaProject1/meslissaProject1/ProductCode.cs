@@ -14,7 +14,7 @@ public class ProductCode
 
     const int maxBlocks = 8;
 
-    //cleans out unnecessary punctuation and makes everything lowercase to generate sanitizedText from "text"
+    //cleans out unnecessary punctuation and makes everything uppercase to generate sanitizedText from "text"
     private void sanitizeText()
     {
         sanitizedText = text;
@@ -22,7 +22,7 @@ public class ProductCode
         sanitizedText = sanitizedText.Replace("/", "");
         sanitizedText = sanitizedText.Replace("-", "");
         sanitizedText = sanitizedText.Replace(" ", "");
-        sanitizedText = sanitizedText.ToLower();
+        sanitizedText = sanitizedText.ToUpper();
     }
 
     //builds the array of blocks
