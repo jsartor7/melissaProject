@@ -6,7 +6,10 @@ namespace melissaProject2
     {
         static void Main(string[] args)
         {
-            AddressManager myAddressManager = new AddressManager();
+            //this could probably be better as an input (and also potentially one for the location of the data files)
+            string dataOutputPath = "data/formattedOutputData.txt";
+
+            AddressManager myAddressManager = new AddressManager(dataOutputPath);
         }
     }
 }

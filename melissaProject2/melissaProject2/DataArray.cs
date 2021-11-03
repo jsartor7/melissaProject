@@ -2,12 +2,13 @@
 
 public class DataArray
 {
-    //this maybe should not be public, debug only
+    //this probably shouldn't be public, but i'm not sure it matters too much here
     public DataElem[] elemList;
+
+    //this just loads in all the data and turns it into a list of these DataElem objects
 	public DataArray(string path)
 	{
 		string[] inputDataText = System.IO.File.ReadAllLines(path);
-
         elemList = new DataElem[inputDataText.Length-1];
 
         string names = inputDataText[0];
@@ -20,8 +21,7 @@ public class DataArray
 
     public DataElem[] filter(string name, string value)
     {
-        //this is quite obviously a wildly inefficient use of resources
-        //some kind of dynamic array sizing would be a lot better
+        //this is probably not the best way to do this, a dynamic sized array could be better
         DataElem[] filteredList = new DataElem[elemList.Length];
         int currIndex = 0;
 

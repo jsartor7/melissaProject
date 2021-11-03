@@ -5,6 +5,7 @@ public class DataElem
 	string[] nameList;
 	string[] dataList;
 
+	//grab a property by column name
 	public string grabProperty(string name)
     {
 		int index = Array.IndexOf(nameList,name);
@@ -14,6 +15,7 @@ public class DataElem
         }
 		else
         {
+			//this could probably lead to enormous problems if the data were not properly sanitized... but it is
 			return null;
         }
 		
