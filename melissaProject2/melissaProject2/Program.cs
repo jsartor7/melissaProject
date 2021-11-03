@@ -6,7 +6,7 @@ namespace melissaProject2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AddressManager myAddressManager = new AddressManager();
         }
     }
 }
